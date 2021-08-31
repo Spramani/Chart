@@ -7,5 +7,7 @@ target 'Chart' do
 
   # Pods for Chart
 	pod 'Charts'
+  pod 'HSStockChart'
+pod 'Alamofire', '~> 5.4'
 
 end

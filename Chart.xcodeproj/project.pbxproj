@@ -15,6 +15,7 @@
 		04DAD6BE26DDF14500B71F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DAD6BC26DDF14500B71F4D /* LaunchScreen.storyboard */; };
 		04DAD6C626DDFBEC00B71F4D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD6C526DDFBEC00B71F4D /* SecondViewController.swift */; };
 		04DAD6C826DDFBFD00B71F4D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD6C726DDFBFD00B71F4D /* ThirdViewController.swift */; };
+		04DAD6CA26DE254700B71F4D /* fourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD6C926DE254700B71F4D /* fourViewController.swift */; };
 		53AF9BD971D1792C0F4D5B42 /* Pods_Chart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B7AB298C664F4DB08AB657 /* Pods_Chart.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		04DAD6BF26DDF14500B71F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DAD6C526DDFBEC00B71F4D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		04DAD6C726DDFBFD00B71F4D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		04DAD6C926DE254700B71F4D /* fourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourViewController.swift; sourceTree = "<group>"; };
 		0B820E3F249AC61B49E6C02C /* Pods-Chart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart.debug.xcconfig"; path = "Target Support Files/Pods-Chart/Pods-Chart.debug.xcconfig"; sourceTree = "<group>"; };
 		96B7AB298C664F4DB08AB657 /* Pods_Chart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A604F3F88A208741FB21C292 /* Pods-Chart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart.release.xcconfig"; path = "Target Support Files/Pods-Chart/Pods-Chart.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				04DAD6BF26DDF14500B71F4D /* Info.plist */,
 				04DAD6C526DDFBEC00B71F4D /* SecondViewController.swift */,
 				04DAD6C726DDFBFD00B71F4D /* ThirdViewController.swift */,
+				04DAD6C926DE254700B71F4D /* fourViewController.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				04DAD6B626DDF14300B71F4D /* ViewController.swift in Sources */,
 				04DAD6C826DDFBFD00B71F4D /* ThirdViewController.swift in Sources */,
 				04DAD6B226DDF14300B71F4D /* AppDelegate.swift in Sources */,
+				04DAD6CA26DE254700B71F4D /* fourViewController.swift in Sources */,
 				04DAD6B426DDF14300B71F4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,18 +1,26 @@
 PODS:
+  - Alamofire (5.4.3)
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - HSStockChart (1.3.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
   - Charts
+  - HSStockChart
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - Charts
+    - HSStockChart
 
 SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  HSStockChart: 2c6e0e3bcb2e5a345bf62c18d955bbc231d2f466
 
-PODFILE CHECKSUM: 1b594c7b2ed2fdcee3ebdabc9dc7b85b54b235a1
+PODFILE CHECKSUM: 89b972510f2b97a9154618424e5402268ffa4054
 
 COCOAPODS: 1.10.1
