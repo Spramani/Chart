@@ -30,7 +30,7 @@ class ThirdViewController: UIViewController, ChartViewDelegate {
         
         var entries = [CandleChartDataEntry]()
         
-        var wel = 2.0
+        var wel = 1.0
                 for x in dc {
                     let height = (x["high"] as? Double) ?? 0.0
                     let low = (x["low"] as? Double) ?? 0.0
@@ -38,7 +38,7 @@ class ThirdViewController: UIViewController, ChartViewDelegate {
                     let open = (x["open"] as? Double) ?? 0.0
                     
                     entries.append(CandleChartDataEntry(x: wel, shadowH: height, shadowL: low, open: open, close: closes))
-                    wel += 2.0
+                    wel += 1.0
                     }
                     
                    
@@ -53,9 +53,9 @@ class ThirdViewController: UIViewController, ChartViewDelegate {
     
     func APi(){
         
-        AF.request("http://api.marketstack.com/v1/intraday?access_key=ddef9f7695d2fcdd2c23a7b5703f12ff&symbols=AAPL",method: .get,headers: nil).responseJSON{
+        AF.request("http://api.marketstack.com/v1/eod?access_key=ddef9f7695d2fcdd2c23a7b5703f12ff&symbols=AAPL",method: .get,headers: nil).responseJSON{
             response in
-            var value = response.value as? NSDictionary
+            let value = response.value as? NSDictionary
             if let a = value?.value(forKey: "data") as? [NSDictionary]{
                 self.dc = a
             }
