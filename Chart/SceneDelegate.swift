@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Chart
 //
-//  Created by Adsum MAC 2 on 31/08/21.
+//  Created by shubh on 31/08/21.
 //
 
 import UIKit
